@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Store</title>
+        <title>Night out's | Store</title>
+        <meta name="" content="">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -14,11 +15,129 @@
             </nav>
             <h1 class="band-name band-name-large">Night out's</h1>
         </header>
-        <section>
-            <H1>Under construction ⛏️⛏️⛏️</H1>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Eternal Shadows</span>
+                    <span class="shop-item-desc">2019 &#9900; Album 1</span>
+                    <img class="shop-item-img" src="Images/Album 1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Rebellion's Anthem</span>
+                    <span class="shop-item-desc">2020 &#9900; Album 2</span>
+                    <img class="shop-item-img" src="Images/Album 2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sonic Stormrise</span>
+                    <span class="shop-item-desc">2022 &#9900; Album 3</span>
+                    <img class="shop-item-img" src="Images/Album 3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Metal Enigma</span>
+                    <span class="shop-item-desc">2023 &#9900; Album 4</span>
+                    <img class="shop-item-img" src="Images/Album 4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
         </section>
-        <footer>
-
+        <section  class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Women T-Shirt</span>
+                    <img class="shop-item-img t-shirt" src="Images/t-shirt 1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Men T-Shirt</span>
+                    <img class="shop-item-img t-shirt" src="Images/t-shirt 2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$16.99</span>
+                        <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-img" src="Images/t-shirt 2.jpg" width="100" height="100">
+                        <span class="cart-item-title">Men T-Shirt</span>
+                    </div>
+                    <span class="cart-price cart-column">$16.99</span>
+                    <div class="cart-quantity cart-column">   
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger cart-quantity-btn" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-img" src="Images/Album 4.jpg" width="100" height="100">
+                        <span class="cart-item-title">Metal Enigma (Album 3)</span>
+                    </div>
+                    <span class="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">   
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger cart-quantity-btn" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <span class="cart-total-title">Total</span>
+                <span class="cart-total-price">$36.98</span>
+            </div>
+            <div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Nigth out's</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/@twentyonepilots" target="_blank">
+                            <img src="images/youtube logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx" target="_blank">
+                            <img src="images/spotify logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/twentyonepilots/" target="_blank">
+                            <img src="images/instagram logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="container footer-copyright">&copy; 2023 MitvaVirvadiya. All rights reserved.</p>
         </footer>
     </body>
 </html>
